@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07070c" />
+  <title>Loop — Home</title>
+  <link rel="icon" href="assets/logo-icon.png" />
+  <link rel="stylesheet" href="styles.css?v=1" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <div class="app">
+    <!-- Desktop sidebar -->
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <div class="main">
+      <!-- Top header -->
+      <header class="topbar" id="topbar"></header>
+
+      <main class="content">
+        <section class="stories" id="stories" aria-label="Stories"></section>
+        <nav class="chips" id="chips" aria-label="Categories"></nav>
+        <div class="feed" id="feed" data-filter="all"></div>
+      </main>
+    </div>
+
+    <!-- Mobile bottom tab bar -->
+    <nav class="tabbar" id="tabbar" aria-label="Primary"></nav>
+  </div>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>
